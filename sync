@@ -14,5 +14,5 @@ repo init -u git://github.com/AOSiP/platform_manifest.git -b eleven --depth=1 -g
 repo sync -c -f --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j 8 
 
 git clone https://github.com/garisku05/device_ugglite -b r device/xiaomi/ugglite
-git clone https://github.com/fortifying/vendor_xiaomi_ugglite -b elle vendor/xiaomi
+git clone https://github.com/fortifying/vendor_xiaomi_ugglite -b elle vendor/xiaomi/ugglite
 git clone https://github.com/mi-msm8937/android_kernel_xiaomi_msm8937-4.9 --depth=1 kernel/xiaomi/ugglite
