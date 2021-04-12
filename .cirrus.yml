@@ -7,7 +7,7 @@ env: # Environment variables to pass to all tasks
     rclone_config: "ENCRYPTED[e6b57489e5e364b7013542660ce6823fc390190fed3d96d36c5df048fb2750a23cb0d4180171363a566d38eb8ce8bf2f]"
 
 task:
-    name: aosip # Project name
+    name: aosp # Project name
     use_compute_credits: $CIRRUS_USER_COLLABORATOR == 'true'
     timeout_in: 240m # Otherwise it will timeout at 60m automatically, 120m highest in free account
     container:
